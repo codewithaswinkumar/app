@@ -1,0 +1,124 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: linear-gradient(#1D2B64,#F8CDDA);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#Outercount{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 80vw;
+    height: 70vh;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    background-image: linear-gradient(75deg,rgba(184, 53, 53, 0.836),royalblue);
+}
+#innercont{
+    width: 40vw;
+    height: 320px;
+    background-color: black;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 5px 5px 5px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+#heading{
+    color: white;
+    position: absolute;
+    top: 20px;
+    font-size: 50px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 10px;
+}
+.inputdiv{
+    width: 65%;
+    height: 35px;
+    border: 4px solid royalblue;
+    margin-top: 15px;
+    border-radius: 200px;
+    position: relative;
+    left: 7vw;
+}
+.inputtags{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    font-size: 20px;color: white;
+    text-align: center;
+}
+#passvis{
+    width: 25px;
+    border-radius: 100%;
+    border: 2px solid royalblue;
+    position: absolute;
+    top: 1px;
+    right: 2px;
+}
+#passdiv{
+    position: relative;
+}
+#loginbutton{
+    background-color: transparent;
+    border: 3px solid lawngreen;
+    position: absolute;
+    bottom: 25px;
+    left: 35%;
+    width: 170px;
+    height: 40px;
+    border-radius: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+#status{
+    color: red;
+    font-size: 21px;
+    text-align: center;
+}
+#register,#reg{
+    position: absolute;
+    bottom: 23px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#reg{
+    left: 600px;
+}
+#register{
+    left: 780px;
+    color: rgba(85, 13, 219, 0.842);
+}
+#register:hover{
+    transform: scale(1.1);
+    font-weight: bold;
+    color: rgb(95, 13, 249);
+}
+#logo{
+    position: relative;
+    bottom: 39px;
+    left: -354px;
+    width: 150px;
+    background-image: url('../Asset/Images/logo3.png');
+    background-color: blue;
+    background-blend-mode: multiply;
+    color: #1D2B64;
+    box-shadow: 3px 3px 3px #1D2B64;
+    border-radius: 0px 8px 8px 0px;
+}
